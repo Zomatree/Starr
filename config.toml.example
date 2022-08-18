@@ -1,0 +1,8 @@
+[bot]
+token = ""
+default_prefix = ""
+
+[database]
+port = 5432
+user = ""
+password = ""

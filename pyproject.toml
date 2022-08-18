@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "starr"
+version = "0.1.0"
+description = "Starboard bot"
+authors = ["Zomatree <me@zomatree.live>"]
+license = "GPLv3"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+"revolt.py" = { git = "https://github.com/revoltchat/revolt.py" }
+toml = "^0.10.2"
+asyncpg = "^0.26.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
